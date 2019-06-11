@@ -1,7 +1,10 @@
 "Setting"
 
+set title
 set number
 set tabstop=4
+set expandtab
+"set list
 
 
 "Setting for GNU GLOBAL"
