@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:$HOME/usr/bin	# added by izumi on 2019/5/24
+export TERM=xterm-256color
