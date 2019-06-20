@@ -96,7 +96,7 @@ if [ "$(uname)" = 'Darwin' ]; then
     alias l='ls -CF'
     alias ls='ls -FG'
 else
-    alias ls='ls --color=auto'
+    alias ls='ls -F  --color=auto'
 fi
 
 
