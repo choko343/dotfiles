@@ -6,6 +6,9 @@ zstyle ':completion:*' menu select
 # 入力ミスを修正
 setopt correct
 
+# 同時に起動したzshの間でヒストリを共有する
+setopt share_history
+
 # alias 
 if [ "$(uname)" = 'Darwin' ]; then
     #export LSCOLORS=xbfxcxdxbxegedabagacad
