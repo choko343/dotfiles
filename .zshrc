@@ -36,4 +36,4 @@ PROMPT='%{$fg[red]%}[%n@%m]%{$reset_color%}%~'
 PROMPT=$PROMPT'%{${fg[red]}%}%}$%{${reset_color}%} '
 
 # プロンプト（右）
-RPROMPT='%{${fg[red]}%}[$vcs_info_msg_0_]%{${reset_color}%}'
+RPROMPT='%{${fg[red]}%}[$vcs_info_msg_0_]%{${reset_color}%'
