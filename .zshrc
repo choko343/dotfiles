@@ -6,6 +6,16 @@ zstyle ':completion:*' menu select
 # 入力ミスを修正
 setopt correct
 
+# alias 
+if [ "$(uname)" = 'Darwin' ]; then
+    #export LSCOLORS=xbfxcxdxbxegedabagacad
+    alias ll='ls -alFG'
+    alias la='ls -A'
+    alias l='ls -CF'
+    alias ls='ls -FG'
+else
+    alias ls='ls -F  --color=auto'
+fi
 
 # for git
 
