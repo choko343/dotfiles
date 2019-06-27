@@ -5,7 +5,9 @@ zstyle ':completion:*' menu select
 
 # 入力ミスを修正
 setopt correct
-
+# 履歴の設定
+export HISTSIZE=1000
+export SAVEHIST=100000
 # 同時に起動したzshの間でヒストリを共有する
 setopt share_history
 
