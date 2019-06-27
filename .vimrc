@@ -81,6 +81,10 @@ set statusline+=[L=%l/%L]
 "現在行が全体行の何%か表示
 set statusline+=[%p%%]
 
+"補完系
+"inoremap { {}<LEFT>
+"inoremap ( ()<LEFT>
+
 
 " -------------------------------------
 " 検索
