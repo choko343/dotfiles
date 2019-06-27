@@ -23,6 +23,9 @@ else
     alias l='ls -CF'
 fi
 
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
 # for git
 
 # VCSの情報を取得するzsh関数
