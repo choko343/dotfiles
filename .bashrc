@@ -99,6 +99,11 @@ else
     alias ls='ls -F  --color=auto'
 fi
 
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+alias tarzip='tar czvf'
+alias tarunzip='tar xzvf'
 
 
 # Add an "alert" alias for long running commands.  Use like so:

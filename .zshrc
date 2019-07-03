@@ -28,6 +28,8 @@ fi
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
+alias tarzip='tar czvf'
+alias tarunzip='tar xzvf'
 # for git
 
 # VCSの情報を取得するzsh関数
