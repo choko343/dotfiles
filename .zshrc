@@ -30,6 +30,9 @@ alias mv='mv -i'
 alias rm='rm -i'
 alias tarzip='tar czvf'
 alias tarunzip='tar xzvf'
+
+# for global
+export PATH=$PATH:$HOME/usr/bin	
 # for git
 
 # VCSの情報を取得するzsh関数
